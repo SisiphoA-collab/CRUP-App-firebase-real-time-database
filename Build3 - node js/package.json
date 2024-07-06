@@ -1,0 +1,20 @@
+{
+  "name": "build3",
+  "version": "1.0.0",
+  "description": "Build an app and sync data in realtime to enhance the functioning on website for Build3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "author": "Ndalama Matika",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
